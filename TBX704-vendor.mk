@@ -16,6 +16,14 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.b00:system/etc/firmware/goodixfp.b00 \
+    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.b01:system/etc/firmware/goodixfp.b01 \
+    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.b02:system/etc/firmware/goodixfp.b02 \
+    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.b03:system/etc/firmware/goodixfp.b03 \
+    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.b04:system/etc/firmware/goodixfp.b04 \
+    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.b05:system/etc/firmware/goodixfp.b05 \
+    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.b06:system/etc/firmware/goodixfp.b06 \
+    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
     vendor/lenovo/TBX704/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/lenovo/TBX704/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/lenovo/TBX704/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
@@ -25,17 +33,19 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/lenovo/TBX704/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/lenovo/TBX704/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-	vendor/lenovo/TBX704/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/lenovo/TBX704/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/lenovo/TBX704/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb \
     vendor/lenovo/TBX704/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb \
     vendor/lenovo/TBX704/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
     vendor/lenovo/TBX704/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/lenovo/TBX704/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/lenovo/TBX704/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/lenovo/TBX704/proprietary/vendor/etc/camera/imx219_fx219aq_chromatix.xml:system/vendor/etc/camera/imx219_fx219aq_chromatix.xml \
-    vendor/lenovo/TBX704/proprietary/vendor/etc/camera/msm8953_camera.xml:system/vendor/etc/camera/msm8953_camera.xml \
-    vendor/lenovo/TBX704/proprietary/vendor/etc/camera/ov5695_ccbfl05006_chromatix.xml:system/vendor/etc/camera/ov5695_ccbfl05006_chromatix.xml \
-    vendor/lenovo/TBX704/proprietary/vendor/etc/camera/ov5695_f5695ak_chromatix.xml:system/vendor/etc/camera/ov5695_f5695ak_chromatix.xml \
+    vendor/lenovo/TBX704/proprietary/vendor/etc/camera/camera_config.xml:system/vendor/etc/camera/camera_config.xml \
+    vendor/lenovo/TBX704/proprietary/vendor/etc/camera/imx219_chromatix.xml:system/vendor/etc/camera/imx219_chromatix.xml \
+    vendor/lenovo/TBX704/proprietary/vendor/etc/camera/imx219_ofilm_chromatix.xml:system/vendor/etc/camera/imx219_ofilm_chromatix.xml \
+    vendor/lenovo/TBX704/proprietary/vendor/etc/camera/ov5695_avc_chromatix.xml:system/vendor/etc/camera/ov5695_avc_chromatix.xml \
+    vendor/lenovo/TBX704/proprietary/vendor/etc/camera/ov5695_qtech2_chromatix.xml:system/vendor/etc/camera/ov5695_qtech2_chromatix.xml \
+    vendor/lenovo/TBX704/proprietary/vendor/etc/camera/ov8856_chromatix.xml:system/vendor/etc/camera/ov8856_chromatix.xml \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/apq/a506_zap.b00:system/vendor/firmware/variant/apq/a506_zap.b00 \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/msm/a506_zap.b00:system/vendor/firmware/variant/msm/a506_zap.b00 \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/apq/a506_zap.b01:system/vendor/firmware/variant/apq/a506_zap.b01 \
@@ -53,13 +63,26 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/a506_zap.b02:system/vendor/firmware/a506_zap.b02 \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/a506_zap.elf:system/vendor/firmware/a506_zap.elf \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/a506_zap.mdt:system/vendor/firmware/a506_zap.mdt \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+	vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+	vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:system/vendor/firmware/cpp_firmware_v1_5_0.fw \
+	vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:system/vendor/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
+	vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:system/vendor/firmware/cpp_firmware_v1_10_0.fw \
+	vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:system/vendor/firmware/cpp_firmware_v1_12_0.fw \
     vendor/lenovo/TBX704/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/TBX704/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/lenovo/TBX704/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/lenovo/TBX704/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lenovo/TBX704/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/lenovo/TBX704/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/lenovo/TBX704/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
+    vendor/lenovo/TBX704/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
+    vendor/lenovo/TBX704/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
+    vendor/lenovo/TBX704/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/lenovo/TBX704/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/lenovo/TBX704/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/lenovo/TBX704/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
@@ -75,6 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/lenovo/TBX704/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/lenovo/TBX704/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
+    vendor/lenovo/TBX704/proprietary/vendor/bin/gx_fpd:system/vendor/bin/gx_fpd \
     vendor/lenovo/TBX704/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/lenovo/TBX704/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/lenovo/TBX704/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
@@ -130,7 +154,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libactuator_dw9718.so:system/vendor/lib/libactuator_dw9718.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libactuator_ofilm_imx219_dw9718.so:system/vendor/lib/libactuator_ofilm_imx219_dw9718.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libactuator_qtech_dw9718.so:system/vendor/lib/libactuator_qtech_dw9718.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libadpcmdec.so:system/vendor/lib/libadpcmdec.so \
@@ -141,81 +167,131 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_a3_default_preview.so:system/vendor/lib/libchromatix_imx219_fx219aq_a3_default_preview.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_a3_default_video.so:system/vendor/lib/libchromatix_imx219_fx219aq_a3_default_video.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_a3_hfr_120.so:system/vendor/lib/libchromatix_imx219_fx219aq_a3_hfr_120.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_a3_hfr_60.so:system/vendor/lib/libchromatix_imx219_fx219aq_a3_hfr_60.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_a3_hfr_90.so:system/vendor/lib/libchromatix_imx219_fx219aq_a3_hfr_90.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_common.so:system/vendor/lib/libchromatix_imx219_fx219aq_common.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx219_fx219aq_cpp_hfr_120.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx219_fx219aq_cpp_hfr_60.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx219_fx219aq_cpp_hfr_90.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_cpp_liveshot.so:system/vendor/lib/libchromatix_imx219_fx219aq_cpp_liveshot.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_cpp_preview.so:system/vendor/lib/libchromatix_imx219_fx219aq_cpp_preview.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_cpp_snapshot.so:system/vendor/lib/libchromatix_imx219_fx219aq_cpp_snapshot.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_cpp_video.so:system/vendor/lib/libchromatix_imx219_fx219aq_cpp_video.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_hfr_120.so:system/vendor/lib/libchromatix_imx219_fx219aq_hfr_120.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_hfr_60.so:system/vendor/lib/libchromatix_imx219_fx219aq_hfr_60.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_hfr_90.so:system/vendor/lib/libchromatix_imx219_fx219aq_hfr_90.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_postproc.so:system/vendor/lib/libchromatix_imx219_fx219aq_postproc.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_preview.so:system/vendor/lib/libchromatix_imx219_fx219aq_preview.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_snapshot.so:system/vendor/lib/libchromatix_imx219_fx219aq_snapshot.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_zsl_preview.so:system/vendor/lib/libchromatix_imx219_fx219aq_zsl_preview.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_fx219aq_zsl_video.so:system/vendor/lib/libchromatix_imx219_fx219aq_zsl_video.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_a3_default_preview.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_a3_default_preview.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_a3_default_video.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_a3_default_video.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_a3_hfr_120.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_a3_hfr_120.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_a3_hfr_60.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_a3_hfr_60.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_a3_hfr_90.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_a3_hfr_90.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_common.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_common.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_ds_chromatix.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_hfr_120.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_hfr_60.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_hfr_90.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_liveshot.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_liveshot.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_preview.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_preview.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_snapshot.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_snapshot.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_us_chromatix.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_video.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_video.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_video_full.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_cpp_video_full.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_default_video.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_default_video.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_hfr_120.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_hfr_120.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_hfr_60.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_hfr_60.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_hfr_90.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_hfr_90.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_liveshot.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_liveshot.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_postproc.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_postproc.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_preview.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_preview.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_snapshot.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_snapshot.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_video_full.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_video_full.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_zsl_preview.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_zsl_preview.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_ccbfl05006_zsl_video.so:system/vendor/lib/libchromatix_ov5695_ccbfl05006_zsl_video.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_a3_default_preview.so:system/vendor/lib/libchromatix_ov5695_f5695ak_a3_default_preview.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_a3_default_video.so:system/vendor/lib/libchromatix_ov5695_f5695ak_a3_default_video.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_a3_hfr_120.so:system/vendor/lib/libchromatix_ov5695_f5695ak_a3_hfr_120.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_a3_hfr_60.so:system/vendor/lib/libchromatix_ov5695_f5695ak_a3_hfr_60.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_a3_hfr_90.so:system/vendor/lib/libchromatix_ov5695_f5695ak_a3_hfr_90.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_common.so:system/vendor/lib/libchromatix_ov5695_f5695ak_common.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov5695_f5695ak_cpp_ds_chromatix.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov5695_f5695ak_cpp_hfr_120.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov5695_f5695ak_cpp_hfr_60.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov5695_f5695ak_cpp_hfr_90.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_cpp_liveshot.so:system/vendor/lib/libchromatix_ov5695_f5695ak_cpp_liveshot.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_cpp_preview.so:system/vendor/lib/libchromatix_ov5695_f5695ak_cpp_preview.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_cpp_snapshot.so:system/vendor/lib/libchromatix_ov5695_f5695ak_cpp_snapshot.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov5695_f5695ak_cpp_us_chromatix.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_cpp_video.so:system/vendor/lib/libchromatix_ov5695_f5695ak_cpp_video.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_cpp_video_full.so:system/vendor/lib/libchromatix_ov5695_f5695ak_cpp_video_full.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_default_video.so:system/vendor/lib/libchromatix_ov5695_f5695ak_default_video.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_hfr_120.so:system/vendor/lib/libchromatix_ov5695_f5695ak_hfr_120.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_hfr_60.so:system/vendor/lib/libchromatix_ov5695_f5695ak_hfr_60.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_hfr_90.so:system/vendor/lib/libchromatix_ov5695_f5695ak_hfr_90.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_liveshot.so:system/vendor/lib/libchromatix_ov5695_f5695ak_liveshot.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_postproc.so:system/vendor/lib/libchromatix_ov5695_f5695ak_postproc.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_preview.so:system/vendor/lib/libchromatix_ov5695_f5695ak_preview.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_snapshot.so:system/vendor/lib/libchromatix_ov5695_f5695ak_snapshot.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_video_full.so:system/vendor/lib/libchromatix_ov5695_f5695ak_video_full.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_zsl_preview.so:system/vendor/lib/libchromatix_ov5695_f5695ak_zsl_preview.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_f5695ak_zsl_video.so:system/vendor/lib/libchromatix_ov5695_f5695ak_zsl_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_a3_default_preview.so:system/vendor/lib/libchromatix_imx219_a3_default_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_a3_default_video.so:system/vendor/lib/libchromatix_imx219_a3_default_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_a3_hfr_120.so:system/vendor/lib/libchromatix_imx219_a3_hfr_120.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_a3_hfr_60.so:system/vendor/lib/libchromatix_imx219_a3_hfr_60.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_a3_hfr_90.so:system/vendor/lib/libchromatix_imx219_a3_hfr_90.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_common.so:system/vendor/lib/libchromatix_imx219_common.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_imx219_cpp_ds_chromatix.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx219_cpp_hfr_120.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx219_cpp_hfr_60.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx219_cpp_hfr_90.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_cpp_liveshot.so:system/vendor/lib/libchromatix_imx219_cpp_liveshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_cpp_preview.so:system/vendor/lib/libchromatix_imx219_cpp_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_cpp_snapshot.so:system/vendor/lib/libchromatix_imx219_cpp_snapshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_cpp_us_chromatix.so:system/vendor/lib/libchromatix_imx219_cpp_us_chromatix.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_cpp_video.so:system/vendor/lib/libchromatix_imx219_cpp_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_default_video.so:system/vendor/lib/libchromatix_imx219_default_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_hfr_120.so:system/vendor/lib/libchromatix_imx219_hfr_120.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_hfr_60.so:system/vendor/lib/libchromatix_imx219_hfr_60.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_hfr_90.so:system/vendor/lib/libchromatix_imx219_hfr_90.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_a3_default_preview.so:system/vendor/lib/libchromatix_imx219_ofilm_a3_default_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_a3_default_video.so:system/vendor/lib/libchromatix_imx219_ofilm_a3_default_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_a3_hfr_120.so:system/vendor/lib/libchromatix_imx219_ofilm_a3_hfr_120.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_a3_hfr_60.so:system/vendor/lib/libchromatix_imx219_ofilm_a3_hfr_60.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_a3_hfr_90.so:system/vendor/lib/libchromatix_imx219_ofilm_a3_hfr_90.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_common.so:system/vendor/lib/libchromatix_imx219_ofilm_common.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_imx219_ofilm_cpp_ds_chromatix.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx219_ofilm_cpp_hfr_120.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx219_ofilm_cpp_hfr_60.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx219_ofilm_cpp_hfr_90.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_cpp_liveshot.so:system/vendor/lib/libchromatix_imx219_ofilm_cpp_liveshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_cpp_preview.so:system/vendor/lib/libchromatix_imx219_ofilm_cpp_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_cpp_snapshot.so:system/vendor/lib/libchromatix_imx219_ofilm_cpp_snapshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_cpp_us_chromatix.so:system/vendor/lib/libchromatix_imx219_ofilm_cpp_us_chromatix.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_cpp_video.so:system/vendor/lib/libchromatix_imx219_ofilm_cpp_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_default_video.so:system/vendor/lib/libchromatix_imx219_ofilm_default_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_hfr_120.so:system/vendor/lib/libchromatix_imx219_ofilm_hfr_120.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_hfr_60.so:system/vendor/lib/libchromatix_imx219_ofilm_hfr_60.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_hfr_90.so:system/vendor/lib/libchromatix_imx219_ofilm_hfr_90.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_postproc.so:system/vendor/lib/libchromatix_imx219_ofilm_postproc.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_preview.so:system/vendor/lib/libchromatix_imx219_ofilm_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_snapshot.so:system/vendor/lib/libchromatix_imx219_ofilm_snapshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_zsl_preview.so:system/vendor/lib/libchromatix_imx219_ofilm_zsl_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_ofilm_zsl_video.so:system/vendor/lib/libchromatix_imx219_ofilm_zsl_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_postproc.so:system/vendor/lib/libchromatix_imx219_postproc.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_preview.so:system/vendor/lib/libchromatix_imx219_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_snapshot.so:system/vendor/lib/libchromatix_imx219_snapshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_zsl_preview.so:system/vendor/lib/libchromatix_imx219_zsl_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_imx219_zsl_video.so:system/vendor/lib/libchromatix_imx219_zsl_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_a3_default_preview.so:system/vendor/lib/libchromatix_ov5695_avc_a3_default_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_a3_default_video.so:system/vendor/lib/libchromatix_ov5695_avc_a3_default_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_a3_hfr_120.so:system/vendor/lib/libchromatix_ov5695_avc_a3_hfr_120.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_a3_hfr_60.so:system/vendor/lib/libchromatix_ov5695_avc_a3_hfr_60.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_a3_hfr_90.so:system/vendor/lib/libchromatix_ov5695_avc_a3_hfr_90.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_common.so:system/vendor/lib/libchromatix_ov5695_avc_common.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov5695_avc_cpp_ds_chromatix.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov5695_avc_cpp_hfr_120.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov5695_avc_cpp_hfr_60.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov5695_avc_cpp_hfr_90.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_cpp_liveshot.so:system/vendor/lib/libchromatix_ov5695_avc_cpp_liveshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_cpp_preview.so:system/vendor/lib/libchromatix_ov5695_avc_cpp_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_cpp_snapshot.so:system/vendor/lib/libchromatix_ov5695_avc_cpp_snapshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov5695_avc_cpp_us_chromatix.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_cpp_video.so:system/vendor/lib/libchromatix_ov5695_avc_cpp_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_cpp_video_full.so:system/vendor/lib/libchromatix_ov5695_avc_cpp_video_full.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_default_video.so:system/vendor/lib/libchromatix_ov5695_avc_default_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_hfr_120.so:system/vendor/lib/libchromatix_ov5695_avc_hfr_120.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_hfr_60.so:system/vendor/lib/libchromatix_ov5695_avc_hfr_60.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_hfr_90.so:system/vendor/lib/libchromatix_ov5695_avc_hfr_90.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_postproc.so:system/vendor/lib/libchromatix_ov5695_avc_postproc.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_preview.so:system/vendor/lib/libchromatix_ov5695_avc_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_snapshot.so:system/vendor/lib/libchromatix_ov5695_avc_snapshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_video_full.so:system/vendor/lib/libchromatix_ov5695_avc_video_full.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_zsl_preview.so:system/vendor/lib/libchromatix_ov5695_avc_zsl_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_avc_zsl_video.so:system/vendor/lib/libchromatix_ov5695_avc_zsl_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_a3_default_preview.so:system/vendor/lib/libchromatix_ov5695_qtech2_a3_default_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_a3_default_video.so:system/vendor/lib/libchromatix_ov5695_qtech2_a3_default_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_a3_hfr_120.so:system/vendor/lib/libchromatix_ov5695_qtech2_a3_hfr_120.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_a3_hfr_60.so:system/vendor/lib/libchromatix_ov5695_qtech2_a3_hfr_60.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_a3_hfr_90.so:system/vendor/lib/libchromatix_ov5695_qtech2_a3_hfr_90.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_common.so:system/vendor/lib/libchromatix_ov5695_qtech2_common.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov5695_qtech2_cpp_ds_chromatix.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov5695_qtech2_cpp_hfr_120.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov5695_qtech2_cpp_hfr_60.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov5695_qtech2_cpp_hfr_90.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_cpp_liveshot.so:system/vendor/lib/libchromatix_ov5695_qtech2_cpp_liveshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_cpp_preview.so:system/vendor/lib/libchromatix_ov5695_qtech2_cpp_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_cpp_snapshot.so:system/vendor/lib/libchromatix_ov5695_qtech2_cpp_snapshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov5695_qtech2_cpp_us_chromatix.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_cpp_video.so:system/vendor/lib/libchromatix_ov5695_qtech2_cpp_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_cpp_video_full.so:system/vendor/lib/libchromatix_ov5695_qtech2_cpp_video_full.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_default_video.so:system/vendor/lib/libchromatix_ov5695_qtech2_default_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_hfr_120.so:system/vendor/lib/libchromatix_ov5695_qtech2_hfr_120.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_hfr_60.so:system/vendor/lib/libchromatix_ov5695_qtech2_hfr_60.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_hfr_90.so:system/vendor/lib/libchromatix_ov5695_qtech2_hfr_90.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_postproc.so:system/vendor/lib/libchromatix_ov5695_qtech2_postproc.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_preview.so:system/vendor/lib/libchromatix_ov5695_qtech2_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_snapshot.so:system/vendor/lib/libchromatix_ov5695_qtech2_snapshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_video_full.so:system/vendor/lib/libchromatix_ov5695_qtech2_video_full.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_zsl_preview.so:system/vendor/lib/libchromatix_ov5695_qtech2_zsl_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov5695_qtech2_zsl_video.so:system/vendor/lib/libchromatix_ov5695_qtech2_zsl_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_a3_default_preview.so:system/vendor/lib/libchromatix_ov8856_a3_default_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_a3_default_video.so:system/vendor/lib/libchromatix_ov8856_a3_default_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_120.so:system/vendor/lib/libchromatix_ov8856_a3_hfr_120.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_60.so:system/vendor/lib/libchromatix_ov8856_a3_hfr_60.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_90.so:system/vendor/lib/libchromatix_ov8856_a3_hfr_90.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_common.so:system/vendor/lib/libchromatix_ov8856_common.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov8856_cpp_ds_chromatix.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov8856_cpp_hfr_120.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov8856_cpp_hfr_60.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov8856_cpp_hfr_90.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8856_cpp_liveshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_cpp_preview.so:system/vendor/lib/libchromatix_ov8856_cpp_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8856_cpp_snapshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8856_cpp_us_chromatix.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_cpp_video.so:system/vendor/lib/libchromatix_ov8856_cpp_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_default_video.so:system/vendor/lib/libchromatix_ov8856_default_video.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_hfr_120.so:system/vendor/lib/libchromatix_ov8856_hfr_120.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_hfr_60.so:system/vendor/lib/libchromatix_ov8856_hfr_60.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_hfr_90.so:system/vendor/lib/libchromatix_ov8856_hfr_90.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_liveshot.so:system/vendor/lib/libchromatix_ov8856_liveshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_postproc.so:system/vendor/lib/libchromatix_ov8856_postproc.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_preview.so:system/vendor/lib/libchromatix_ov8856_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_snapshot.so:system/vendor/lib/libchromatix_ov8856_snapshot.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_zsl_preview.so:system/vendor/lib/libchromatix_ov8856_zsl_preview.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libchromatix_ov8856_zsl_video.so:system/vendor/lib/libchromatix_ov8856_zsl_video.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
@@ -259,7 +335,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_imx219_fx219aq.so:system/vendor/lib/libmmcamera_imx219_fx219aq.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_imx219.so:system/vendor/lib/libmmcamera_imx219.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_imx219_ofilm.so:system/vendor/lib/libmmcamera_imx219_ofilm.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
@@ -295,14 +372,15 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_isp_template.so:system/vendor/lib/libmmcamera_isp_template.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_ofilm_ov8856_eeprom.so:system/vendor/lib/libmmcamera_ofilm_ov8856_eeprom.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_ov5695_ccbfl05006.so:system/vendor/lib/libmmcamera_ov5695_ccbfl05006.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_ov5695_f5695ak.so:system/vendor/lib/libmmcamera_ov5695_f5695ak.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_ov5695_avc.so:system/vendor/lib/libmmcamera_ov5695_avc.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_ov5695_qtech2.so:system/vendor/lib/libmmcamera_ov5695_qtech2.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_ov8856.so:system/vendor/lib/libmmcamera_ov8856.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_qtech_f5695ak_eeprom.so:system/vendor/lib/libmmcamera_qtech_f5695ak_eeprom.so \
-    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_qtech_imx219_fx219aq_eeprom.so:system/vendor/lib/libmmcamera_qtech_imx219_fx219aq_eeprom.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_qtech_imx219_eeprom.so:system/vendor/lib/libmmcamera_qtech_imx219_eeprom.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_sw_tnr.so:system/vendor/lib/libmmcamera_sw_tnr.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
