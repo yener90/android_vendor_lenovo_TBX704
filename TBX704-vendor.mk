@@ -64,15 +64,15 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/a506_zap.elf:system/vendor/firmware/a506_zap.elf \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/a506_zap.mdt:system/vendor/firmware/a506_zap.mdt \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
-	vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
-	vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:system/vendor/firmware/cpp_firmware_v1_5_0.fw \
-	vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:system/vendor/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:system/vendor/firmware/cpp_firmware_v1_5_2.fw \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
-	vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:system/vendor/firmware/cpp_firmware_v1_10_0.fw \
-	vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:system/vendor/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:system/vendor/firmware/cpp_firmware_v1_12_0.fw \
     vendor/lenovo/TBX704/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/TBX704/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/lenovo/TBX704/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
@@ -156,6 +156,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libactuator_dw9718.so:system/vendor/lib/libactuator_dw9718.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libactuator_ofilm_imx219_dw9718.so:system/vendor/lib/libactuator_ofilm_imx219_dw9718.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libactuator_pseudo.so:system/vendor/lib/libactuator_pseudo.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libactuator_qtech_dw9718.so:system/vendor/lib/libactuator_qtech_dw9718.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
@@ -319,12 +320,14 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera2_mct_shimlayer.so:system/vendor/lib/libmmcamera2_mct_shimlayer.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_cac3_lib.so:system/vendor/lib/libmmcamera_cac3_lib.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
@@ -332,7 +335,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_eebinparse.so:system/vendor/lib/libmmcamera_eebinparse.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:system/vendor/lib/libmmcamera_facedetection_lib.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_gc2375.so:system/vendor/lib/libmmcamera_gc2375.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_imx219.so:system/vendor/lib/libmmcamera_imx219.so \
@@ -377,15 +383,22 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_ov5695_avc.so:system/vendor/lib/libmmcamera_ov5695_avc.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_ov5695_qtech2.so:system/vendor/lib/libmmcamera_ov5695_qtech2.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_ov8856.so:system/vendor/lib/libmmcamera_ov8856.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_qtech_imx219_eeprom.so:system/vendor/lib/libmmcamera_qtech_imx219_eeprom.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:system/vendor/lib/libmmcamera_sw2d_lib.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_sw_tnr.so:system/vendor/lib/libmmcamera_sw_tnr.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
