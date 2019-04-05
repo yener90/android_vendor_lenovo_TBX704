@@ -91,7 +91,7 @@ LensInfo : Information of the lens present in the module.
     <ChromatixName>ov5695_qtech2_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
+    <MountAngle>0</MountAngle>
     <CSIInfo>
       <CSIDCore>1</CSIDCore>
       <LaneMask>0x7</LaneMask>
@@ -116,7 +116,7 @@ LensInfo : Information of the lens present in the module.
     <ChromatixName>ov5695_avc_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
+    <MountAngle>0</MountAngle>
     <CSIInfo>
       <CSIDCore>2</CSIDCore>
       <LaneMask>0x7</LaneMask>
@@ -142,7 +142,7 @@ LensInfo : Information of the lens present in the module.
     <ChromatixName>imx219_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
+    <MountAngle>0</MountAngle>
     <CSIInfo>
       <CSIDCore>0</CSIDCore>
       <LaneMask>0x1F</LaneMask>
@@ -168,7 +168,7 @@ LensInfo : Information of the lens present in the module.
 	<ChromatixName>imx219_ofilm_chromatix</ChromatixName>
 	<ModesSupported>1</ModesSupported>
 	<Position>BACK</Position>
-	<MountAngle>90</MountAngle>
+	<MountAngle>0</MountAngle>
 	<CSIInfo>
 	<CSIDCore>0</CSIDCore>
 	<LaneMask>0x1F</LaneMask>
@@ -194,7 +194,7 @@ LensInfo : Information of the lens present in the module.
      <ChromatixName>ov8856_chromatix</ChromatixName>
      <ModesSupported>1</ModesSupported>
      <Position>BACK</Position>
-     <MountAngle>90</MountAngle>
+     <MountAngle>0</MountAngle>
      <CSIInfo>
        <CSIDCore>0</CSIDCore>
        <LaneMask>0x1F</LaneMask>
