@@ -16,14 +16,14 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
-    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.b00:system/etc/firmware/goodixfp.b00 \
-    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.b01:system/etc/firmware/goodixfp.b01 \
-    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.b02:system/etc/firmware/goodixfp.b02 \
-    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.b03:system/etc/firmware/goodixfp.b03 \
-    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.b04:system/etc/firmware/goodixfp.b04 \
-    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.b05:system/etc/firmware/goodixfp.b05 \
-    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.b06:system/etc/firmware/goodixfp.b06 \
-    vendor/lenovo/TBX704/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.b00:system/vendor/firmware/goodixfp.b00 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.b01:system/vendor/firmware/goodixfp.b01 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.b02:system/vendor/firmware/goodixfp.b02 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.b03:system/vendor/firmware/goodixfp.b03 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.b04:system/vendor/firmware/goodixfp.b04 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.b05:system/vendor/firmware/goodixfp.b05 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.b06:system/vendor/firmware/goodixfp.b06 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.mdt:system/vendor/firmware/goodixfp.mdt \
     vendor/lenovo/TBX704/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/lenovo/TBX704/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/lenovo/TBX704/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
