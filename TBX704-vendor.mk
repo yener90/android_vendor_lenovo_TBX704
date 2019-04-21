@@ -17,14 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/lenovo/TBX704/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
-    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.b00:system/vendor/firmware/goodixfp.b00 \
-    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.b01:system/vendor/firmware/goodixfp.b01 \
-    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.b02:system/vendor/firmware/goodixfp.b02 \
-    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.b03:system/vendor/firmware/goodixfp.b03 \
-    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.b04:system/vendor/firmware/goodixfp.b04 \
-    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.b05:system/vendor/firmware/goodixfp.b05 \
-    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.b06:system/vendor/firmware/goodixfp.b06 \
-    vendor/lenovo/TBX704/proprietary/vendor/firmware/goodixfp.mdt:system/vendor/firmware/goodixfp.mdt \
     vendor/lenovo/TBX704/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/lenovo/TBX704/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/lenovo/TBX704/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
@@ -58,6 +50,22 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/msm/a506_zap.elf:system/vendor/firmware/variant/msm/a506_zap.elf \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/apq/a506_zap.mdt:system/vendor/firmware/variant/apq/a506_zap.mdt \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/msm/a506_zap.mdt:system/vendor/firmware/variant/msm/a506_zap.mdt \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/apq/goodixfp.b00:system/vendor/firmware/variant/apq/goodixfp.b00 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/msm/goodixfp.b00:system/vendor/firmware/variant/msm/goodixfp.b00 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/apq/goodixfp.b01:system/vendor/firmware/variant/apq/goodixfp.b01 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/msm/goodixfp.b01:system/vendor/firmware/variant/msm/goodixfp.b01 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/apq/goodixfp.b02:system/vendor/firmware/variant/apq/goodixfp.b02 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/msm/goodixfp.b02:system/vendor/firmware/variant/msm/goodixfp.b02 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/apq/goodixfp.b03:system/vendor/firmware/variant/apq/goodixfp.b03 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/msm/goodixfp.b03:system/vendor/firmware/variant/msm/goodixfp.b03 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/apq/goodixfp.b04:system/vendor/firmware/variant/apq/goodixfp.b04 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/msm/goodixfp.b04:system/vendor/firmware/variant/msm/goodixfp.b04 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/apq/goodixfp.b05:system/vendor/firmware/variant/apq/goodixfp.b05 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/msm/goodixfp.b05:system/vendor/firmware/variant/msm/goodixfp.b05 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/apq/goodixfp.b06:system/vendor/firmware/variant/apq/goodixfp.b06 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/msm/goodixfp.b06:system/vendor/firmware/variant/msm/goodixfp.b06 \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/apq/goodixfp.mdt:system/vendor/firmware/variant/apq/goodixfp.mdt \
+    vendor/lenovo/TBX704/proprietary/vendor/firmware/variant/msm/goodixfp.mdt:system/vendor/firmware/variant/msm/goodixfp.mdt \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/a530_pfp.fw:system/vendor/firmware/a530_pfp.fw \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/a530_pm4.fw:system/vendor/firmware/a530_pm4.fw \
     vendor/lenovo/TBX704/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:system/vendor/firmware/cpp_firmware_v1_5_0.fw \
@@ -99,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/lenovo/TBX704/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/lenovo/TBX704/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
+    vendor/lenovo/TBX704/proprietary/vendor/bin/gx_fpd:system/vendor/bin/gx_fpd \
     vendor/lenovo/TBX704/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/lenovo/TBX704/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/lenovo/TBX704/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
