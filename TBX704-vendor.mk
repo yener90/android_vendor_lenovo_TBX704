@@ -375,6 +375,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib/libgpustats.so:system/vendor/lib/libgpustats.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libhdr_tm.so:system/vendor/lib/libhdr_tm.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -596,6 +597,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/lenovo/TBX704/proprietary/vendor/lib64/libgpustats.so:system/vendor/lib64/libgpustats.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib64/libhdr_tm.so:system/vendor/lib64/libhdr_tm.so \
     vendor/lenovo/TBX704/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
@@ -688,7 +690,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
-    libgpustats \
     libsdm-disp-vndapis \
     libts_detected_face_hal \
     libts_face_beautify_hal \
