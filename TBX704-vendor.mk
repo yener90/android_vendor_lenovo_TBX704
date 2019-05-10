@@ -16,7 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lenovo/TBX704/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/lenovo/TBX704/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/lenovo/TBX704/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
     vendor/lenovo/TBX704/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/lenovo/TBX704/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/lenovo/TBX704/proprietary/bin/wfdservice:system/bin/wfdservice \
